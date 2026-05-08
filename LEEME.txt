@@ -1,0 +1,28 @@
+Corrector IA — Lee este archivo antes de empezar
+==================================================
+
+1) RENOMBRA "config.ejemplo.json" a "config.json".
+
+2) Abre "config.json" con el Bloc de notas y pega tu API key
+   de Groq (o de OpenAI) en el campo "api_key".
+
+   - Crear una cuenta gratis de Groq:
+     https://console.groq.com/  -> API Keys -> Create API Key
+
+3) Doble clic en CorrectorIA.exe.
+
+   Aparecera un icono azul "AI" junto al reloj. A partir de
+   ese momento, escribe normalmente en cualquier aplicacion
+   y las correcciones llegan solas al pulsar espacio.
+
+Atajos:
+   Ctrl + Alt + P  ->  Pausar / reanudar
+   Ctrl + Alt + Q  ->  Cerrar el programa
+
+Si Windows muestra "Protegio tu PC" la primera vez:
+   Mas informacion -> Ejecutar de todas formas.
+
+Licencia y soporte: ver README.md y LICENSE.
+
+Copyright (c) 2026 Leticia Sepulveda Mancilla.
+Todos los derechos reservados.

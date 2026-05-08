@@ -1,0 +1,87 @@
+Corrector IA — Licencia de uso (Todos los derechos reservados)
+================================================================
+
+Copyright (c) 2026 Leticia Sepúlveda Mancilla.
+Todos los derechos reservados.
+
+Este programa ("Corrector IA") y todo su contenido (código fuente,
+ejecutables, recursos, documentación e ideas que lo conforman) son
+propiedad intelectual exclusiva de Leticia Sepúlveda Mancilla.
+
+
+1. USO PERSONAL PERMITIDO
+-------------------------
+Se concede al usuario final el permiso, gratuito y revocable, de:
+
+  a) Descargar el ejecutable oficial publicado por la autora.
+  b) Instalarlo y utilizarlo en su propio ordenador personal.
+  c) Compartir el enlace oficial de descarga con otras personas.
+
+Este permiso se otorga "tal cual" y exclusivamente para uso personal y
+no comercial.
+
+
+2. USOS NO PERMITIDOS
+---------------------
+Sin autorización previa y por escrito de la autora, queda EXPRESAMENTE
+PROHIBIDO:
+
+  a) Copiar, redistribuir, alojar o publicar el ejecutable o cualquier
+     parte del programa en sitios distintos al canal oficial de la
+     autora.
+  b) Modificar, descompilar, desensamblar, hacer ingeniería inversa
+     o intentar extraer el código fuente del ejecutable.
+  c) Crear obras derivadas, productos competidores o trabajos basados,
+     parcial o totalmente, en este programa.
+  d) Emplear el programa con fines comerciales, lucrativos o
+     profesionales remunerados sin licencia específica.
+  e) Eliminar, ocultar o alterar los avisos de copyright, autoría o
+     marcas presentes en el programa o en su documentación.
+  f) Atribuirse la autoría del programa o de sus componentes.
+
+
+3. SIN GARANTÍA
+---------------
+EL PROGRAMA SE OFRECE "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO,
+EXPRESA O IMPLÍCITA, INCLUIDAS PERO NO LIMITADAS A LAS GARANTÍAS DE
+COMERCIABILIDAD, IDONEIDAD PARA UN PROPÓSITO PARTICULAR O NO
+INFRACCIÓN. EN NINGÚN CASO LA AUTORA SERÁ RESPONSABLE DE NINGÚN
+DAÑO O RECLAMACIÓN DERIVADOS DEL USO O DE LA IMPOSIBILIDAD DE USO
+DEL PROGRAMA.
+
+
+4. SERVICIOS DE TERCEROS
+------------------------
+El programa puede comunicarse con servicios externos (por ejemplo
+Groq, OpenAI, LanguageTool, Ollama). El uso de esos servicios se
+rige por las condiciones de cada proveedor; la autora no es
+responsable de ellos. Cada usuario debe utilizar SUS PROPIAS
+credenciales (claves API).
+
+
+5. RESCISIÓN
+------------
+El incumplimiento de cualquier término de esta licencia conlleva su
+revocación automática y la obligación de eliminar todas las copias
+del programa.
+
+
+6. CONTACTO
+-----------
+Para solicitar permisos comerciales, integraciones o cualquier uso
+no contemplado, contacta con la autora a través del repositorio
+oficial.
+
+
+================================================================
+English summary (non-binding):
+
+Copyright (c) 2026 Leticia Sepúlveda Mancilla. All rights reserved.
+
+You may download and use the official Corrector IA executable for
+personal, non-commercial purposes. You MAY NOT redistribute, modify,
+reverse-engineer, decompile, or create derivative works of this
+software without prior written permission from the author. The
+software is provided "AS IS", without warranty of any kind. The
+Spanish text above prevails over this summary.
+================================================================

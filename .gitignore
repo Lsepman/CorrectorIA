@@ -1,0 +1,11 @@
+# Nunca subir el config personal con la API key
+config.json
+
+# Archivos temporales / log
+*.log
+corrector_ia.log
+
+# Sistema operativo
+Thumbs.db
+Desktop.ini
+.DS_Store

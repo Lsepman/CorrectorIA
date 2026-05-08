@@ -1,0 +1,57 @@
+{
+  "_comentario": "Copia este archivo como 'config.json' y rellena lo que necesites. Solo se usa el motor que indiques en 'motor'.",
+
+  "motor": "groq",
+
+  "_motores_disponibles": ["groq", "openai", "ollama", "languagetool"],
+
+  "groq": {
+    "api_key": "PEGA_AQUI_TU_API_KEY_GRATUITA_DE_GROQ",
+    "modelo": "llama-3.3-70b-versatile",
+    "url_base": "https://api.groq.com/openai/v1"
+  },
+
+  "openai": {
+    "api_key": "PEGA_AQUI_TU_API_KEY_DE_OPENAI",
+    "modelo": "gpt-4o-mini",
+    "url_base": "https://api.openai.com/v1"
+  },
+
+  "ollama": {
+    "modelo": "llama3.2:3b",
+    "url_base": "http://localhost:11434"
+  },
+
+  "languagetool": {
+    "url_base": "http://localhost:8081",
+    "_nota": "Si está en None se usa la API pública (más lenta). Para uso intensivo, instala LanguageTool localmente."
+  },
+
+  "comportamiento": {
+    "modo_trigger": "palabra",
+    "_nota_modo_trigger": "Cuando dispara la correccion: 'palabra' (cada espacio, corrige solo la palabra anterior con la frase como contexto), 'frase' (al cerrar frase con '. '/'? '/'! ' o Enter, corrige la frase entera), o 'ambos' (las dos cosas).",
+
+    "longitud_palabra_minima": 3,
+    "longitud_minima": 8,
+    "longitud_maxima": 500,
+    "pausa_tras_correccion_ms": 120,
+    "_nota_pausa_tras": "Por defecto tambien es la pausa despues de pegar si no pones 'reemplazo.pausa_despues_pegar_ms'.",
+
+    "mostrar_notificaciones": true,
+    "sonido_al_corregir": false,
+    "escuchar_clics_raton": false,
+    "_nota_clics_raton": "Si es true, cualquier clic borra el texto que el programa cree que estas escribiendo (para evitar correcciones fuera de sitio). Suele molestar en Bloc de notas / WhatsApp; dejalo en false salvo que necesites ese comportamiento.",
+
+    "_nota_longitud": "Palabras con menos de 'longitud_palabra_minima' caracteres se ignoran (evita corregir 'a', 'el', 'tu'... que son demasiado cortas). Frases con menos de 'longitud_minima' caracteres no se mandan al modo 'frase'. Frases mas largas que 'longitud_maxima' tampoco."
+  },
+
+  "reemplazo": {
+    "_nota": "Tiempos en milisegundos. Si el texto se desplaza o queda raro al corregir, sube sobre todo pausa_despues_borrar_ms y pausa_despues_copiar_ms.",
+    "retraso_entre_retrocesos_ms": 2.5,
+    "pausa_despues_borrar_ms": 45,
+    "pausa_despues_copiar_ms": 130,
+    "pausa_despues_pegar_ms": null,
+    "_nota_pegar_null": "Si es null, se usa 'comportamiento.pausa_tras_correccion_ms'.",
+    "pausa_antes_restaurar_portapapeles_ms": 200
+  }
+}
